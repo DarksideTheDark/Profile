@@ -55,6 +55,24 @@
             <input type="password" name="senha" placeholder="Senha">
             <br><br>
             <input class="inputSubmit" type="submit" name="submit" value="Enviar">
+            <ul class="login-ut">
+                        <li class="margin-top-8-margin-button-8">
+                            <span class="text1">
+                                Esqueceu sua
+                            </span>
+                            <a href="#" class="text2">
+                                senha?
+                            </a>
+                        </li>
+                        <li>
+                            <span class="text1">
+                                Não tem uma conta?
+                            </span>
+                            <a href="formulario.php" class="text2">
+                                Criar
+                            </a>
+                        </li>
+                    </ul>
         </form>
     </div>
 </body>
