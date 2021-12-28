@@ -34,7 +34,7 @@ if ($conn->query($sql) === TRUE) {
     <title>Registre-se</title>
 </head>
 <body>
-    <a href="login.php" class="back">Voltar</a>
+    <a href="index.php" class="back">Voltar</a>
     <div class="box">
         <form action="formulario.php" method="POST">
             <fieldset>
