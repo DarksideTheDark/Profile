@@ -15,7 +15,7 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
 
-        header('Location: login.php');
+        header('Location: index.php');
     }else{
 
         $_SESSION['email'] = $email;
