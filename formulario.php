@@ -92,6 +92,6 @@ if ($conn->query($sql) === TRUE) {
             </fieldset>
         </form>
     </div>
-<?php header('location: login.php')?>
+<?php header('location: index.php')?>
 </body>
 </html>
